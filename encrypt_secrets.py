@@ -104,7 +104,7 @@ def encrypt_smtp_password():
         env_file.write_text(new_env_content)
         
         print("✅ ENCRYPTED AND SAVED!")
-        print(f"   Old (plaintext): {current_password[:10]}...")
+        print("   Old (plaintext): [REDACTED]")
         print(f"   New (encrypted): {encrypted[:30]}...\n")
         print("🎉 Your Gmail App Password is NOW SECURE!")
     
