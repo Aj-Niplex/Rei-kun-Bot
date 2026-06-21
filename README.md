@@ -3,7 +3,7 @@
 [![Python](https://img.shields.io/badge/Python-3.13+-3776AB?logo=python&logoColor=white)](https://python.org)
 [![Discord.py](https://img.shields.io/badge/discord.py-2.6.4+-5865F2?logo=discord&logoColor=white)](https://discordpy.readthedocs.io/)
 [![OpenRouter](https://img.shields.io/badge/OpenRouter-AI%20Models-FF6B6B)](https://openrouter.ai/)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 
 > A powerful, AI-powered Discord bot with personality! Built by [Aj-Niplex](https://github.com/Aj-Niplex).
 
