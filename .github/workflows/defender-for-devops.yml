@@ -25,6 +25,8 @@ on:
     branches: [ "main" ]
   schedule:
     - cron: '25 19 * * 1'
+permissions:
+  security-events: write
 
 jobs:
   MSDO:
