@@ -58,7 +58,7 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/rei-kun-bot.git
+   git clone https://github.com/Aj-Niplex/Rei-kun-Bot.git
    cd rei-kun-bot
    ```
 
