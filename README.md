@@ -5,7 +5,7 @@
 [![OpenRouter](https://img.shields.io/badge/OpenRouter-AI%20Models-FF6B6B)](https://openrouter.ai/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-> A powerful, AI-powered Discord bot with personality! Built by [@dora_aj](https://github.com/dora_aj) and trained on Mis. ERICA-SAN's persona.
+> A powerful, AI-powered Discord bot with personality! Built by [@dora_aj](https://github.com/Aj-Niplex).
 
 ---
 
