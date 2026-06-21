@@ -1,4 +1,4 @@
-# [![Logo](https://githubusercontent.com)](https://github.com/Aj-Niplex/Rei-kun-Bot) Rei-kun Discord Bot
+# [![Logo](https://raw.githubusercontent.com/Aj-Niplex/Rei-kun-Bot/main/assets/logo.png)](https://github.com/Aj-Niplex/Rei-kun-Bot) Rei-kun Discord Bot
 
 [![Python](https://img.shields.io/badge/Python-3.13+-3776AB?logo=python&logoColor=white)](https://python.org)
 [![Discord.py](https://img.shields.io/badge/discord.py-2.6.4+-5865F2?logo=discord&logoColor=white)](https://discordpy.readthedocs.io/)
