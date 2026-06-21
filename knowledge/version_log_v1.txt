@@ -1,0 +1,338 @@
+====================================================
+PROJECT HISTORY (Legacy: Dora BOT)
+RELAUNCH ERA: v1.0.0 STARTS HERE
+====================================================
+
+NOTE:
+- This file preserves the full Dora BOT history from v4.1.0 to v6.1.0.
+- The new brand name can be filled in later.
+- Legacy history is kept for reference and changelog continuity.
+
+====================================================
+LEGACY HISTORY
+====================================================
+
+VERSION : v4.1.0
+TYPE    : Major Structure Update
+DATE    : 2026-05-28
+TIME    : 10:18 PM IST
+----------------------------------------------------
+MAIN CHANGES:
+- Added server-wise memory system
+- AI memory separated per Discord server
+- Added dedicated AI system prompt support
+- Added structured AI knowledge folder
+
+AI IMPROVEMENTS:
+- AI can detect memory-related questions
+- AI can detect bot-help-related questions
+- AI routing system added
+- AI reads saved memories only when relevant
+- AI reads command help files separately
+
+FILES ADDED:
+- ai/system_prompt.txt
+- ai/knowledge/bot_help.txt
+- ai/knowledge/version_log.txt
+
+====================================================
+VERSION : v4.2.0
+TYPE    : Command Upgrade
+DATE    : 2026-05-28
+TIME    : 10:18 PM IST
+----------------------------------------------------
+MAIN CHANGES:
+- Improved help command UI
+- Added aihelp command
+- Added botinfo command
+- Added userid command
+
+HELP MENU:
+- Better embeds
+- Added command descriptions
+- Added quick command menu
+- Added command explanations
+
+====================================================
+VERSION : v4.3.0
+TYPE    : Security + Access Update
+DATE    : 2026-05-28
+TIME    : 10:18 PM IST
+----------------------------------------------------
+MAIN CHANGES:
+- Added DM restrictions
+- Added blocked user system
+- Added selective command deletion
+
+SECURITY:
+- Only selected users can use bot in DMs
+- Added user blocking support
+- Added command visibility filters
+
+BOT BEHAVIOR:
+- AI commands are no longer deleted
+- Utility commands auto delete
+- Better Discord chat cleanliness
+
+====================================================
+VERSION : v4.4.0
+TYPE    : Logging System Upgrade
+DATE    : 2026-05-28
+TIME    : 10:18 PM IST
+----------------------------------------------------
+MAIN CHANGES:
+- Added logging system
+- Added Indian timezone logs
+- Added AI error analysis
+- Added raw API error display
+
+LOG FEATURES:
+- Logs username
+- Logs user ID
+- Logs server name
+- Logs channel
+- Logs commands
+- Logs timestamps
+
+====================================================
+VERSION : v4.5.0
+TYPE    : AI Intelligence Upgrade
+DATE    : 2026-05-28
+TIME    : 10:18 PM IST
+----------------------------------------------------
+MAIN CHANGES:
+- Added intent classification
+- Added command-aware AI
+- Added version-aware AI
+- Added bot-help-aware AI
+
+AI FEATURES:
+- AI can identify memory questions
+- AI can identify bot questions
+- AI can identify general chat
+
+====================================================
+VERSION : v4.5.1
+TYPE    : Minor Fix
+DATE    : 2026-05-28
+TIME    : 10:18 PM IST
+----------------------------------------------------
+FIXES:
+- Fixed empty help embed issue
+- Fixed command display formatting
+
+====================================================
+VERSION : v4.5.2
+TYPE    : Critical Fix
+DATE    : 2026-05-28
+TIME    : 10:18 PM IST
+----------------------------------------------------
+FIXES:
+- Fixed classify_intent crash
+- Fixed missing function error
+- Fixed AI routing failure
+
+====================================================
+VERSION : v4.5.3
+TYPE    : Console + Visibility Upgrade
+DATE    : 2026-05-28
+TIME    : 10:18 PM IST
+----------------------------------------------------
+MAIN CHANGES:
+- Improved startup console
+- Cleaner startup logs
+- Added Indian timezone startup time
+- Disabled ugly Discord logs
+
+BOT BEHAVIOR:
+- AI messages remain visible
+- Utility commands auto delete
+- Better developer console
+
+====================================================
+VERSION : v4.5.4
+TYPE    : Timezone + Model Stability Upgrade
+DATE    : 2026-05-28
+TIME    : 10:18 PM IST
+----------------------------------------------------
+MAIN CHANGES:
+- Fixed incorrect startup timezone
+- Added proper Indian timezone formatting
+- Added GPT-4o-mini primary routing
+- Added fallback model support
+- Improved AI response stability
+
+MODEL SYSTEM:
+- Primary model: openai/gpt-4o-mini
+- Fallback model: deepseek/deepseek-chat-v3-0324:free
+
+CONSOLE IMPROVEMENTS:
+- Better readability
+- Cleaner timestamp formatting
+- More stable startup output
+
+====================================================
+VERSION : v5.0.0
+TYPE    : Major Runtime Upgrade
+DATE    : <PUT DATE>
+TIME    : <PUT TIME>
+----------------------------------------------------
+MAIN CHANGES:
+- Added live module reload system
+- Added hot-reload command
+- Added runtime extension management
+- Removed need for full bot restart
+
+NEW COMMAND:
+- ?reload
+
+RELOAD FEATURES:
+- Reload specific command files
+- Reload utility modules
+- Reload AI systems
+- Reload logger systems
+- Reload help system live
+
+BOT IMPROVEMENTS:
+- Faster development workflow
+- Runtime command updating
+- Better developer experience
+- Less downtime during updates
+
+SUPPORTED RELOADS:
+- commands.help
+- commands.ai
+- utils.ai
+- utils.logger
+- utils.storage
+
+====================================================
+VERSION : v5.1.0
+TYPE    : Stability + Security Upgrade
+DATE    : 2026-05-29
+TIME    : 08:53 AM IST
+----------------------------------------------------
+MAIN CHANGES:
+- Switched to env-only secret handling
+- Added 5-model OpenRouter fallback chain
+- Improved reload handling for module names with hyphens
+- Added VPS console logs for reload and admin actions
+- Fixed ping latency reference
+- Added stronger module-not-found suggestions
+
+SECURITY:
+- Removed hardcoded token patterns from config
+- Added owner/admin ID support
+- Global bot blocks now apply outside guilds too
+
+RELOAD IMPROVEMENTS:
+- Safe unload/reload flow
+- Command cleanup by module callback source
+- Better failure messages for missing modules
+
+====================================================
+VERSION : v5.5.0
+TYPE    : Infrastructure Upgrade Release
+DATE    : 2026-05-29
+TIME    : 09:00 AM IST
+----------------------------------------------------
+MAJOR IMPROVEMENTS:
+- Upgraded AI system from 2-model fallback to 5-model rotation
+- Added OpenRouter multi-model support
+- Added automatic AI failover chain
+- Improved AI reliability and uptime
+
+NEW FEATURES:
+- Added VPS logging system
+- Added admin promotion module
+- Added admin management foundation
+- Added reload activity tracking
+- Added command execution logging
+
+RELOAD SYSTEM:
+- Improved reload stability
+- Improved module detection
+- Improved failure reporting
+- Improved extension diagnostics
+- Improved live debugging workflow
+
+BUG FIXES:
+- Fixed AI fallback issues
+- Fixed import path issues
+- Fixed module loading errors
+- Fixed logger integration issues
+- Fixed admin_promo loading conflicts
+- Fixed various reload-related bugs
+
+DEPLOYMENT:
+- Successfully tested on live VPS
+- Successfully tested on Wispbyte hosting
+- Stable production startup confirmed
+- Stable command reload confirmed
+
+STATUS:
+- Production Stable
+
+====================================================
+VERSION : v6.0.0
+TYPE    : Custom Media + AI Output Upgrade
+DATE    : 2026-05-29
+TIME    : 11:58 AM IST
+----------------------------------------------------
+MAIN CHANGES:
+- Added custom emoji / GIF asset catalog support
+- Added AI placeholder rendering for custom media
+- Added better emoji-aware AI prompt context
+- Added Discord-safe long message splitting
+- Fixed system prompt file path mismatch
+- Bumped bot version to v6.0.0
+
+AI BEHAVIOR:
+- AI may use placeholders like [[gojo_heart]]
+- Placeholders are converted into Discord custom emoji tags automatically
+- Better support for emoji-rich replies
+
+RELIABILITY:
+- AI command replies now split safely under Discord limits
+- Error analysis replies also split safely
+- Fewer 2000-character send failures
+
+====================================================
+VERSION : v6.1.0
+TYPE    : BotInfo + Branding Redesign
+DATE    : 2026-05-29
+TIME    : 2:30 PM IST
+----------------------------------------------------
+MAIN CHANGES:
+- Complete botinfo redesign
+- Animated loading sequence added
+- Cleaner branding layout
+- Better developer display
+- Better version display
+- Improved runtime section
+- More polished feature presentation
+
+BRANDING:
+- Transition-ready for the new name
+- Legacy Dora identity retained only in history
+- Fresh presentation for the relaunch era
+
+USER EXPERIENCE:
+- Better first impression
+- More professional visual style
+- Easier feature discovery
+- Cleaner embed spacing
+
+====================================================
+RELAUNCH ERA STARTS
+====================================================
+
+VERSION : v1.0.0
+TYPE    : New Brand Launch
+DATE    : 2026-5-29
+TIME    : 2:38 PM IST
+----------------------------------------------------
+NOTE:
+- This is the first version of the new brand.
+- The full legacy history above is preserved for reference.
+- New branding and future updates continue from here.

@@ -1,0 +1,330 @@
+[
+  {
+    "key": "purplecrown",
+    "discord_name": "purplecrown",
+    "emoji_id": "1509805047247147008",
+    "animated": false,
+    "tag": "<:purplecrown:1509805047247147008>",
+    "pack": "seed"
+  },
+  {
+    "key": "flower",
+    "discord_name": "flower",
+    "emoji_id": "1509805044701073478",
+    "animated": false,
+    "tag": "<:flower:1509805044701073478>",
+    "pack": "seed"
+  },
+  {
+    "key": "dev",
+    "discord_name": "Dev",
+    "emoji_id": "1509570627504439499",
+    "animated": false,
+    "tag": "<:Dev:1509570627504439499>",
+    "pack": "app"
+  },
+  {
+    "key": "frustrated",
+    "discord_name": "frustrated",
+    "emoji_id": "1509800342743679108",
+    "animated": false,
+    "tag": "<:frustrated:1509800342743679108>",
+    "pack": "app"
+  },
+  {
+    "key": "missing",
+    "discord_name": "missing",
+    "emoji_id": "1509800344966664264",
+    "animated": false,
+    "tag": "<:missing:1509800344966664264>",
+    "pack": "app"
+  },
+  {
+    "key": "irritated",
+    "discord_name": "irritated",
+    "emoji_id": "1509800348368371894",
+    "animated": false,
+    "tag": "<:irritated:1509800348368371894>",
+    "pack": "app"
+  },
+  {
+    "key": "clapping_cat",
+    "discord_name": "clapping_cat",
+    "emoji_id": "1509800350536699926",
+    "animated": false,
+    "tag": "<:clapping_cat:1509800350536699926>",
+    "pack": "app"
+  },
+  {
+    "key": "crying_cat",
+    "discord_name": "crying_cat",
+    "emoji_id": "1509800353099546785",
+    "animated": false,
+    "tag": "<:crying_cat:1509800353099546785>",
+    "pack": "app"
+  },
+  {
+    "key": "shocked_cat",
+    "discord_name": "shocked_cat",
+    "emoji_id": "1509800356031234218",
+    "animated": false,
+    "tag": "<:shocked_cat:1509800356031234218>",
+    "pack": "app"
+  },
+  {
+    "key": "happy_cat",
+    "discord_name": "happy_cat",
+    "emoji_id": "1509800357977391265",
+    "animated": false,
+    "tag": "<:happy_cat:1509800357977391265>",
+    "pack": "app"
+  },
+  {
+    "key": "sad_cat",
+    "discord_name": "sad_cat",
+    "emoji_id": "1509800360498167888",
+    "animated": false,
+    "tag": "<:sad_cat:1509800360498167888>",
+    "pack": "app"
+  },
+  {
+    "key": "angry_cat",
+    "discord_name": "angry_cat",
+    "emoji_id": "1509800362532671558",
+    "animated": false,
+    "tag": "<:angry_cat:1509800362532671558>",
+    "pack": "app"
+  },
+  {
+    "key": "candy_man",
+    "discord_name": "candy_man",
+    "emoji_id": "1509805049902006342",
+    "animated": false,
+    "tag": "<:candy_man:1509805049902006342>",
+    "pack": "app"
+  },
+  {
+    "key": "butterfly_2",
+    "discord_name": "butterfly_2",
+    "emoji_id": "1509805054415339560",
+    "animated": false,
+    "tag": "<:butterfly_2:1509805054415339560>",
+    "pack": "app"
+  },
+  {
+    "key": "violet_flower",
+    "discord_name": "violet_flower",
+    "emoji_id": "1509805056642388002",
+    "animated": false,
+    "tag": "<:violet_flower:1509805056642388002>",
+    "pack": "app"
+  },
+  {
+    "key": "clouds_or_dreaming",
+    "discord_name": "clouds_or_dreaming",
+    "emoji_id": "1509805059175612518",
+    "animated": false,
+    "tag": "<:clouds_or_dreaming:1509805059175612518>",
+    "pack": "app"
+  },
+  {
+    "key": "spinning",
+    "discord_name": "spinning",
+    "emoji_id": "1509805062027870328",
+    "animated": false,
+    "tag": "<:spinning:1509805062027870328>",
+    "pack": "app"
+  },
+  {
+    "key": "violet_heart",
+    "discord_name": "violet_heart",
+    "emoji_id": "1509805064200388800",
+    "animated": false,
+    "tag": "<:violet_heart:1509805064200388800>",
+    "pack": "app"
+  },
+  {
+    "key": "bat",
+    "discord_name": "bat",
+    "emoji_id": "1509805066184429608",
+    "animated": false,
+    "tag": "<:bat:1509805066184429608>",
+    "pack": "app"
+  },
+  {
+    "key": "little_dragon",
+    "discord_name": "little_dragon",
+    "emoji_id": "1509805070504558673",
+    "animated": false,
+    "tag": "<:little_dragon:1509805070504558673>",
+    "pack": "app"
+  },
+  {
+    "key": "dead_flower",
+    "discord_name": "dead_flower",
+    "emoji_id": "1509805084144570459",
+    "animated": false,
+    "tag": "<:dead_flower:1509805084144570459>",
+    "pack": "app"
+  },
+  {
+    "key": "star",
+    "discord_name": "star",
+    "emoji_id": "1509805086652629083",
+    "animated": false,
+    "tag": "<:star:1509805086652629083>",
+    "pack": "app"
+  },
+  {
+    "key": "footsteps",
+    "discord_name": "footsteps",
+    "emoji_id": "1509805090213724170",
+    "animated": false,
+    "tag": "<:footsteps:1509805090213724170>",
+    "pack": "app"
+  },
+  {
+    "key": "blue_bird",
+    "discord_name": "blue_bird",
+    "emoji_id": "1509805092273127495",
+    "animated": false,
+    "tag": "<:blue_bird:1509805092273127495>",
+    "pack": "app"
+  },
+  {
+    "key": "lavender",
+    "discord_name": "lavender",
+    "emoji_id": "1509805095091703889",
+    "animated": false,
+    "tag": "<:lavender:1509805095091703889>",
+    "pack": "app"
+  },
+  {
+    "key": "butterfly",
+    "discord_name": "butterfly",
+    "emoji_id": "1509805099071832134",
+    "animated": false,
+    "tag": "<:butterfly:1509805099071832134>",
+    "pack": "app"
+  },
+  {
+    "key": "cat_paws",
+    "discord_name": "cat_paws",
+    "emoji_id": "1509805108097974322",
+    "animated": false,
+    "tag": "<:cat_paws:1509805108097974322>",
+    "pack": "app"
+  },
+  {
+    "key": "blue_flowers",
+    "discord_name": "blue_flowers",
+    "emoji_id": "1509805110614560940",
+    "animated": false,
+    "tag": "<:blue_flowers:1509805110614560940>",
+    "pack": "app"
+  },
+  {
+    "key": "naughty",
+    "discord_name": "naughty",
+    "emoji_id": "1509805345491648512",
+    "animated": false,
+    "tag": "<:naughty:1509805345491648512>",
+    "pack": "app"
+  },
+  {
+    "key": "shocked",
+    "discord_name": "shocked",
+    "emoji_id": "1509805348381266000",
+    "animated": false,
+    "tag": "<:shocked:1509805348381266000>",
+    "pack": "app"
+  },
+  {
+    "key": "blue_flame",
+    "discord_name": "blue_flame",
+    "emoji_id": "1509805350558105631",
+    "animated": false,
+    "tag": "<:blue_flame:1509805350558105631>",
+    "pack": "app"
+  },
+  {
+    "key": "wonderful",
+    "discord_name": "wonderful",
+    "emoji_id": "1509805353297117214",
+    "animated": false,
+    "tag": "<:wonderful:1509805353297117214>",
+    "pack": "app"
+  },
+  {
+    "key": "kidding",
+    "discord_name": "kidding",
+    "emoji_id": "1509805355901653014",
+    "animated": false,
+    "tag": "<:kidding:1509805355901653014>",
+    "pack": "app"
+  },
+  {
+    "key": "silence",
+    "discord_name": "silence",
+    "emoji_id": "1509805358661500968",
+    "animated": false,
+    "tag": "<:silence:1509805358661500968>",
+    "pack": "app"
+  },
+  {
+    "key": "crying",
+    "discord_name": "crying",
+    "emoji_id": "1509805361526472755",
+    "animated": false,
+    "tag": "<:crying:1509805361526472755>",
+    "pack": "app"
+  },
+  {
+    "key": "domain_expansion",
+    "discord_name": "domain_expansion",
+    "emoji_id": "1509805363946455141",
+    "animated": false,
+    "tag": "<:domain_expansion:1509805363946455141>",
+    "pack": "app"
+  },
+  {
+    "key": "heart",
+    "discord_name": "heart",
+    "emoji_id": "1509805370644893768",
+    "animated": false,
+    "tag": "<:heart:1509805370644893768>",
+    "pack": "app"
+  },
+  {
+    "key": "cool",
+    "discord_name": "cool",
+    "emoji_id": "1509805373924839434",
+    "animated": false,
+    "tag": "<:cool:1509805373924839434>",
+    "pack": "app"
+  },
+  {
+    "key": "dance",
+    "discord_name": "dance",
+    "emoji_id": "1509805376088965281",
+    "animated": false,
+    "tag": "<:dance:1509805376088965281>",
+    "pack": "app"
+  },
+  {
+    "key": "love",
+    "discord_name": "love",
+    "emoji_id": "1509805378962194562",
+    "animated": false,
+    "tag": "<:love:1509805378962194562>",
+    "pack": "app"
+  },
+  {
+    "key": "wtf",
+    "discord_name": "wtf",
+    "emoji_id": "1509805381952475229",
+    "animated": false,
+    "tag": "<:wtf:1509805381952475229>",
+    "pack": "app"
+  }
+]
