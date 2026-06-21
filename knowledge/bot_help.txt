@@ -1,0 +1,59 @@
+Dora BOT Commands
+
+?ai <text>
+- Ask the AI to explain, translate, summarize, or chat.
+
+?aihelp
+- Show how to use AI commands with examples.
+
+?help / ?helpme
+- Show the full command menu.
+
+?ping
+- Show bot latency, CPU, RAM, and status.
+
+?quote
+- Get a short quote.
+
+?topic
+- Get a conversation topic.
+
+?save
+- Save the replied message into memory.
+
+?remember
+- Show a saved memory from this server.
+
+?tell / ?tr
+- Explain or translate the replied message.
+
+?fix
+- Rewrite the replied message softly.
+
+?botinfo
+- Show version, owner, and purpose.
+
+?userid <name>
+- Find a server member by username or display name and return the ID.
+
+?botblock @user
+- Block a user from using the bot.
+
+?botunblock @user
+- Remove a user block.
+
+?promote @user
+- Promote a user to the Admin role.
+
+?demote @user
+- Remove the Admin role from a user.
+
+?admins
+- Show current Admin role members.
+
+?reload <module>
+- Reload commands, config, or utilities live.
+
+
+Custom media assets
+- The AI can use placeholders like [[gojo_heart]] when it helps the reply.
