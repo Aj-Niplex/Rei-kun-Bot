@@ -1,11 +1,11 @@
-# [![Logo](https://raw.githubusercontent.com/Aj-Niplex/Rei-kun-Bot/main/Rei-kun-Logo.png)](https://github.com/Aj-Niplex/Rei-kun-Bot)
+# 🤖 Rei-kun Discord Bot
 
 [![Python](https://img.shields.io/badge/Python-3.13+-3776AB?logo=python&logoColor=white)](https://python.org)
 [![Discord.py](https://img.shields.io/badge/discord.py-2.6.4+-5865F2?logo=discord&logoColor=white)](https://discordpy.readthedocs.io/)
 [![OpenRouter](https://img.shields.io/badge/OpenRouter-AI%20Models-FF6B6B)](https://openrouter.ai/)
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-> A powerful, AI-powered Discord bot with personality! Built by [Aj-Niplex](https://github.com/Aj-Niplex).
+> A powerful, AI-powered Discord bot with personality! Built by [@dora_aj](https://github.com/dora_aj) and trained on Mis. ERICA-SAN's persona.
 
 ---
 
@@ -58,7 +58,7 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Aj-Niplex/Rei-kun-Bot.git
+   git clone https://github.com/yourusername/rei-kun-bot.git
    cd rei-kun-bot
    ```
 
@@ -142,9 +142,9 @@ OPENROUTER_API_KEY=your_openrouter_api_key_here
 ### Optional Variables (with defaults)
 ```env
 # Bot Identity
-BOT_PREFIX=! Or ? 
+BOT_PREFIX=?
 BOT_VERSION=v1.0.0
-BOT_DEV=@dora_aj
+BOT_DEV=@your_username
 
 # AI Models (comma-separated)
 OPENROUTER_MODELS=openai/gpt-oss-20b:free,deepseek/deepseek-r1:free,openrouter/auto
@@ -217,7 +217,7 @@ rei-kun-bot/
 ## 🎭 Bot Personality
 
 Rei-kun is **not** a generic chatbot! The bot:
-- Is trained on **Rei kun's persona**
+- Is trained on **Mis. ERICA-SAN's persona**
 - Has a **friendly, helpful, slightly playful** tone
 - Uses **custom emojis** in responses (🌸, 👑, ⚔️)
 - Maintains **identity across all AI models** via identity seed system
@@ -292,22 +292,17 @@ Contributions are welcome! Please:
 
 ---
 
-## Licensing & Ownership
+## 📜 License
 
-This project is licensed under a **Custom Proprietary License**. See the [LICENSE](LICENSE) file for full details. 
-
-**Strict Terms:**
-* You are allowed to modify the bot's data and configurations.
-* You **cannot** remove or alter the original Founder/Company ownership credits.
-* The automatic first-time start telemetry/notification system must remain untouched.
+This project is licensed under the **MIT License** - see [LICENSE](LICENSE) for details.
 
 ---
 
 ## 📞 Support
 
-- **Developer**: [@dAdarsh](https://github.com/Aj-Niplex) (Adarsh)
-- **Persona**: Rei Kun
-- **Issues**: [GitHub Issues](https://github.com/Aj-Niplex/Rei-kun-Discord-Bot/issues)
+- **Developer**: [@dora_aj](https://github.com/dora_aj) (Adarsh)
+- **Persona**: Mis. ERICA-SAN
+- **Issues**: [GitHub Issues](https://github.com/yourusername/rei-kun-bot/issues)
 - **Discord Server**: [Join here](#) _(add your server invite)_
 
 ---
@@ -316,7 +311,7 @@ This project is licensed under a **Custom Proprietary License**. See the [LICENS
 
 - **Discord.py** - Amazing Discord API wrapper
 - **OpenRouter** - Multi-model AI API
-- **Re-Kun** - Personality inspiration
+- **Mis. ERICA-SAN** - Personality inspiration
 - **Community** - For bug reports and feature requests
 
 ---
@@ -326,14 +321,14 @@ This project is licensed under a **Custom Proprietary License**. See the [LICENS
 See [CHANGELOG.txt](CHANGELOG.txt) for full version history.
 
 **Current Version**: v1.0.0  
-**Release Date**: 2026-06-21
+**Release Date**: 2026-06-04
 
 ---
 
 <div align="center">
 
-Made with ❤️ by [@dora_aj](https://github.com/Aj-Niplex)
+Made with ❤️ by [@dora_aj](https://github.com/dora_aj)
 
-**[⬆ Back to Top](#-Rei-kun-Discord-Bot)**
+**[⬆ Back to Top](#-rei-kun-discord-bot)**
 
 </div>
