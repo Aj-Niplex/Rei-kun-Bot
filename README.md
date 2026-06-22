@@ -1,4 +1,4 @@
-# 🤖 Rei-kun Discord Bot
+# Rei-kun Discord Bot
 [![Logo](https://raw.githubusercontent.com/Aj-Niplex/Rei-kun-Bot/main/Rei-kun-Logo.png)](https://github.com/Aj-Niplex/Rei-kun-Bot)
 
 [![Python](https://img.shields.io/badge/Python-3.13+-3776AB?logo=python&logoColor=white)](https://python.org)
@@ -6,7 +6,7 @@
 [![OpenRouter](https://img.shields.io/badge/OpenRouter-AI%20Models-FF6B6B)](https://openrouter.ai/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-> A powerful, AI-powered Discord bot with personality! Built by [@dora_aj](https://github.com/dora_aj) and trained on Mis. ERICA-SAN's persona.
+> A powerful, AI-powered Discord bot with personality! Built by [@dora_aj](https://github.com/dora_aj) and trained on Rei-Kun's persona.
 
 ---
 
