@@ -6,7 +6,7 @@
 [![OpenRouter](https://img.shields.io/badge/OpenRouter-AI%20Models-FF6B6B)](https://openrouter.ai/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-> A powerful, AI-powered Discord bot with personality! Built by [@dora_aj](https://github.com/dora_aj) and trained on Rei-kun's persona.
+> A powerful, AI-powered Discord bot with personality! Built by [@Aj-Niplex](https://github.com/Aj-Niplex) and trained on Rei-kun's persona.
 
 > ⚠️ **Note**: Rei-kun is an imaginary personality and not real. This is a fictional character used as the bot's persona.
 
@@ -61,8 +61,8 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/rei-kun-bot.git
-   cd rei-kun-bot
+   git clone https://github.com/Aj-Niplex/Rei-kun-Bot.git
+   cd Rei-kun-Bot
    ```
 
 2. **Install dependencies**
@@ -302,9 +302,9 @@ This project is licensed under the **MIT License** - see [LICENSE](LICENSE) for 
 
 ## 📞 Support
 
-- **Developer**: [@dora_aj](https://github.com/dora_aj) (Adarsh)
+- **Developer**: [@Aj-Niplex](https://github.com/Aj-Niplex)
 - **Persona**: Rei-kun (Imaginary Personality)
-- **Issues**: [GitHub Issues](https://github.com/yourusername/rei-kun-bot/issues)
+- **Issues**: [GitHub Issues](https://github.com/Aj-Niplex/Rei-kun-Bot/issues)
 - **Discord Server**: [Join here](#) _(add your server invite)_
 
 ---
@@ -329,7 +329,7 @@ See [CHANGELOG.txt](CHANGELOG.txt) for full version history.
 
 <div align="center">
 
-Made with ❤️ by [@dora_aj](https://github.com/dora_aj)
+Made with ❤️ by [@Aj-Niplex](https://github.com/Aj-Niplex)
 
 **[⬆ Back to Top](#-rei-kun-discord-bot)**
 
