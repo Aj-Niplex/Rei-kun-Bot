@@ -171,7 +171,6 @@ See [`.env.example`](.env.example) for full documentation.
 
 ```
 rei-kun-bot/
-├── .env                    # Secrets (Git-ignored)
 ├── .env.example            # Template for .env
 ├── app.py                  # Main bot entry point
 ├── config.py               # Environment loader
@@ -218,7 +217,7 @@ rei-kun-bot/
 ## 🎭 Bot Personality
 
 Rei-kun is **not** a generic chatbot! The bot:
-- Is trained on **Mis. ERICA-SAN's persona**
+- Is trained on **Rei-kun's persona** 
 - Has a **friendly, helpful, slightly playful** tone
 - Uses **custom emojis** in responses (🌸, 👑, ⚔️)
 - Maintains **identity across all AI models** via identity seed system
