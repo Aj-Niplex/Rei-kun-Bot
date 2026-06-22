@@ -6,7 +6,9 @@
 [![OpenRouter](https://img.shields.io/badge/OpenRouter-AI%20Models-FF6B6B)](https://openrouter.ai/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-> A powerful, AI-powered Discord bot with personality! Built by [@dora_aj](https://github.com/dora_aj) and trained on Rei-Kun's persona.
+> A powerful, AI-powered Discord bot with personality! Built by [@dora_aj](https://github.com/dora_aj) and trained on Rei-kun's persona.
+
+> ⚠️ **Note**: Rei-kun is an imaginary personality and not real. This is a fictional character used as the bot's persona.
 
 ---
 
@@ -301,7 +303,7 @@ This project is licensed under the **MIT License** - see [LICENSE](LICENSE) for 
 ## 📞 Support
 
 - **Developer**: [@dora_aj](https://github.com/dora_aj) (Adarsh)
-- **Persona**: Mis. ERICA-SAN
+- **Persona**: Rei-kun (Imaginary Personality)
 - **Issues**: [GitHub Issues](https://github.com/yourusername/rei-kun-bot/issues)
 - **Discord Server**: [Join here](#) _(add your server invite)_
 
@@ -311,7 +313,7 @@ This project is licensed under the **MIT License** - see [LICENSE](LICENSE) for 
 
 - **Discord.py** - Amazing Discord API wrapper
 - **OpenRouter** - Multi-model AI API
-- **Mis. ERICA-SAN** - Personality inspiration
+- **Rei-kun** - Fictional personality inspiration
 - **Community** - For bug reports and feature requests
 
 ---
