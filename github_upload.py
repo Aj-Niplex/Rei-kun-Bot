@@ -21,9 +21,9 @@ def main():
     print("🚀 Starting GitHub upload process...")
     
     # GitHub credentials
-    username = "Aj-Niplex"
-    token = "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"
-    repo = "Rei-kun-Discord-Bot"
+    username = "YOUR_GITHUB_USERNAME"
+    token = "GITHUB_ACCESS_TOKEN"
+    repo = "REPO_NAME"
     
     # Git config
     print("⚙️  Configuring git...")
