@@ -13,7 +13,7 @@ load_master_key()
 print("✅ Master key ready\n")
 
 # Encrypt the current password
-plaintext = "xetn papk zwri donh"
+plaintext = "GOOGLE_APP_KEY"
 encrypted = encrypt_value(plaintext)
 
 print("=" * 70)
