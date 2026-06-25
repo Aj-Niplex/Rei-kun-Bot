@@ -2,11 +2,10 @@
 Advanced Activity Logger - Tracks all bot interactions
 """
 import json
-import os
 from datetime import datetime, timezone
 from pathlib import Path
 import discord
-from typing import Optional, Dict, Any
+from typing import Dict, Any
 
 class ActivityLogger:
     def __init__(self, bot):

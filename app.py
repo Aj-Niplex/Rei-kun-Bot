@@ -1,6 +1,5 @@
 # Python 3.13 | discord.py 2.6.4
 import asyncio
-import importlib
 import logging
 import platform
 from datetime import datetime
@@ -165,7 +164,7 @@ async def setup_hook() -> None:
     try:
         synced = await bot.tree.sync()
         print(f"[SYNC] ✅ Synced {len(synced)} slash command(s) to Discord")
-        print(f"[INFO] 🎮 Type '/' in Discord to see your bot's commands!")
+        print("[INFO] 🎮 Type '/' in Discord to see your bot's commands!")
     except Exception as e:
         print(f"[SYNC] ❌ Failed to sync slash commands: {e}")
 

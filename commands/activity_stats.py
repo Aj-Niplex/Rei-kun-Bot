@@ -79,7 +79,7 @@ async def setup(bot: commands.Bot):
             inline=True
         )
         
-        embed.set_footer(text=f"Rei-kun Activity Tracker v7.0")
+        embed.set_footer(text="Rei-kun Activity Tracker v7.0")
         embed.set_thumbnail(url=bot.user.display_avatar.url)
         
         await loading_msg.edit(content="", embed=embed)

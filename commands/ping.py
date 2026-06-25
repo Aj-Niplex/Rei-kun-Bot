@@ -2,7 +2,6 @@ import discord
 import psutil
 import os
 import time
-from discord.ext import commands
 from utils.bot_emojis import E
 
 _process = psutil.Process(os.getpid())

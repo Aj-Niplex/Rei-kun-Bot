@@ -12,7 +12,6 @@ This tool will:
 4. Show you the new .env lines to copy
 """
 
-import os
 import sys
 from pathlib import Path
 
@@ -69,7 +68,7 @@ def encrypt_smtp_password():
             sys.exit(1)
         
         encrypted = encrypt_value(plaintext)
-        print(f"\n✅ Encrypted! Copy this line to .env:")
+        print("\n✅ Encrypted! Copy this line to .env:")
         print(f"   SMTP_PASSWORD={encrypted}")
         return
     
@@ -88,7 +87,7 @@ def encrypt_smtp_password():
             print("   Re-encrypt with:")
             plaintext = input("Enter your Gmail App Password: ").strip()
             encrypted = encrypt_value(plaintext)
-            print(f"\n✅ New encrypted value:")
+            print("\n✅ New encrypted value:")
             print(f"   SMTP_PASSWORD={encrypted}")
     else:
         print(f"⚠️  Currently UNENCRYPTED: {current_password[:10]}...")

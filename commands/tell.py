@@ -1,6 +1,5 @@
 from discord.ext import commands
 from utils.ai import ask_ai
-from utils.conversation import add_message
 from utils.animations import AIAnimation
 from utils.bot_emojis import E
 

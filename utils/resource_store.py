@@ -1,9 +1,8 @@
 
 import json
-import os
 import re
 from pathlib import Path
-from typing import Any, Dict, Optional
+from typing import Any
 
 DATA_DIR = Path("data")
 RESOURCE_FILE = DATA_DIR / "resources.json"

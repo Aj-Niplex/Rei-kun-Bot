@@ -7,7 +7,6 @@ import logging
 import sys
 import traceback
 from pathlib import Path
-from datetime import datetime
 from typing import Optional
 
 LOG_DIR = Path("logs")

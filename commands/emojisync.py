@@ -1,5 +1,7 @@
 # Python 3.13 | discord.py 2.6.4
-import aiohttp, asyncio, json
+import aiohttp
+import asyncio
+import json
 from pathlib import Path
 from discord.ext import commands
 import discord
@@ -13,9 +15,12 @@ def _is_admin(u: discord.abc.User) -> bool:
 
 def _load() -> list[dict]:
     p = Path(EMOJI_CATALOG_FILE)
-    if not p.exists(): return []
-    try: return json.loads(p.read_text(encoding="utf-8"))
-    except: return []
+    if not p.exists():
+        return []
+    try:
+        return json.loads(p.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return []
 
 def _save(data: list[dict]) -> None:
     p = Path(EMOJI_CATALOG_FILE)
@@ -23,7 +28,8 @@ def _save(data: list[dict]) -> None:
     p.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
 
 def _tag(name: str, eid: str, anim: bool) -> str:
-    if not name or not eid: return ""
+    if not name or not eid:
+        return ""
     return f"<a:{name}:{eid}>" if anim else f"<:{name}:{eid}>"
 
 
@@ -60,11 +66,13 @@ class EmojiSync(commands.Cog):
         added = 0
 
         for e in emojis:
-            if not isinstance(e, dict): continue
+            if not isinstance(e, dict):
+                continue
             eid  = str(e.get("id","")).strip()
             name = str(e.get("name","")).strip()
             anim = bool(e.get("animated", False))
-            if not eid or not name or eid in seed_ids: continue
+            if not eid or not name or eid in seed_ids:
+                continue
             t = _tag(name, eid, anim)
             catalog.append({
                 "key": name.lower(), "discord_name": name,
@@ -120,7 +128,8 @@ class EmojiSync(commands.Cog):
 
         cur = 0
         msg = await ctx.send(embed=make_embed(pages[0], 1, len(pages)))
-        for r in ("◀","▶"): await msg.add_reaction(r)
+        for r in ("◀", "▶"):
+            await msg.add_reaction(r)
 
         def check(r, u):
             return u == ctx.author and r.message.id == msg.id and str(r.emoji) in ("◀","▶")
@@ -129,14 +138,17 @@ class EmojiSync(commands.Cog):
             try:
                 reaction, user = await self.bot.wait_for("reaction_add", timeout=60, check=check)
             except asyncio.TimeoutError:
-                await msg.clear_reactions(); break
+                await msg.clear_reactions()
+                break
             if str(reaction.emoji) == "▶" and cur < len(pages) - 1:
                 cur += 1
             elif str(reaction.emoji) == "◀" and cur > 0:
                 cur -= 1
             await msg.edit(embed=make_embed(pages[cur], cur+1, len(pages)))
-            try: await reaction.remove(user)
-            except: pass
+            try:
+                await reaction.remove(user)
+            except discord.HTTPException:
+                pass
 
     @commands.command(name="emojidebug", aliases=["edebug"])
     async def emojidebug(self, ctx: commands.Context, *, name: str = "") -> None:
@@ -175,7 +187,6 @@ class EmojiSync(commands.Cog):
         catalog = _load()
         for e in catalog:
             if e.get("key","").lower() == number_name.lower() or e.get("discord_name","").lower() == number_name.lower():
-                old_tag = e.get("tag","")
                 e["key"] = new_name.lower()
                 e["discord_name"] = new_name
                 e["tag"] = _tag(new_name, e.get("emoji_id",""), e.get("animated",False))
@@ -188,7 +199,8 @@ class EmojiSync(commands.Cog):
 
     @commands.command(name="emojiadd")
     async def emojiadd(self, ctx: commands.Context, name: str, emoji_id: str, animated: str = "no") -> None:
-        if not _is_admin(ctx.author): return await ctx.send("❌ No permission.")
+        if not _is_admin(ctx.author):
+            return await ctx.send("❌ No permission.")
         catalog = _load()
         if any(str(e.get("emoji_id")) == emoji_id for e in catalog):
             return await ctx.send(f"⚠️ ID `{emoji_id}` already in catalog.")

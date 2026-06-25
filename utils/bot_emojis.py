@@ -15,7 +15,7 @@ FALLBACK: dict[str, str] = {
     "clouds_or_dreaming":"☁️","spinning":"🌀","dead_flower":"🥀","footsteps":"👣",
     "blue_bird":"🐦","blue_flame":"🔥","wonderful":"🌟","kidding":"🤪","silence":"🤫",
     "crying":"😭","domain_expansion":"🫸","cool":"😎","dance":"💃","love":"🤍","wtf":"😵",
-    "dev":"⚙️","bot":"🤖"
+    "bot":"🤖"
 }
 
 
@@ -44,7 +44,8 @@ def E(name: str) -> str:
         entry_name = str(entry.get("discord_name","")).lower()
         if key in (entry_key, entry_name):
             t = entry.get("tag","")
-            if t: return t
+            if t:
+                return t
             # rebuild if tag field missing
             return _build(entry)
 
@@ -56,7 +57,8 @@ def E(name: str) -> str:
         en = str(entry.get("discord_name","")).lower()
         if key in ek or key in en or ek in key:
             t = entry.get("tag","")
-            if t: return t
+            if t:
+                return t
             return _build(entry)
 
     return FALLBACK.get(key, "")
@@ -80,8 +82,10 @@ def all_tags() -> list[str]:
     result = []
     for e in _catalog():
         eid = str(e.get("emoji_id",""))
-        if eid in seen: continue
+        if eid in seen:
+            continue
         seen.add(eid)
         t = e.get("tag","") or _build(e)
-        if t: result.append(t)
+        if t:
+            result.append(t)
     return result
