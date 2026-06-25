@@ -1,4 +1,3 @@
-from discord.ext import commands
 import random
 from utils.storage import get_memories
 from utils.bot_emojis import E

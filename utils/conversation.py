@@ -3,7 +3,6 @@
 import json
 import time
 from pathlib import Path
-from collections import deque
 
 CONV_DIR         = Path("data/conversations")
 MAX_MESSAGES     = 20    # keep last 20 messages per channel (10 exchanges)

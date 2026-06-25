@@ -1,5 +1,4 @@
 
-from typing import Iterable
 
 
 def chunk_text(text: str, limit: int = 1900) -> list[str]:

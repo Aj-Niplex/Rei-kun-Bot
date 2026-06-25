@@ -7,8 +7,8 @@ from email import encoders
 from datetime import datetime
 from zoneinfo import ZoneInfo
 from utils.config_loader import load_env
-import os
-import tempfile
+from core.ownership import FOUNDER_EMAIL
+from core.rate_limiter import is_rate_limited, record_email_send
 
 # 🔒 SECURITY: Import secure loader for encrypted credentials
 from core.security import load_secure_env
@@ -23,12 +23,9 @@ SENDGRID_API_KEY = load_secure_env("SENDGRID_API_KEY", "")  # 🔒 Auto-decrypt
 
 # 🔒 HARDCODED: Error reports ALWAYS go to founder's email
 # Even if .env is changed, this ensures the original creator gets notifications
-from core.ownership import FOUNDER_EMAIL
 ERROR_REPORT_EMAIL = FOUNDER_EMAIL  # Locked to aj.jin.japan.2006@gmail.com
 
 # 🚦 RATE LIMITING: Prevent email spam abuse
-from core.rate_limiter import is_rate_limited, record_email_send
-
 
 async def send_error_email(
     subject: str,

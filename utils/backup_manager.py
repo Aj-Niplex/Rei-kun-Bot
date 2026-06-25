@@ -1,7 +1,6 @@
 """
 Backup Manager - Creates zip backups with unique codes
 """
-import os
 import zipfile
 import secrets
 import string
@@ -64,8 +63,7 @@ class BackupManager:
             root_dir = Path.cwd()
             with zipfile.ZipFile(backup_path, 'w', zipfile.ZIP_DEFLATED) as zipf:
                 # Add metadata
-                zipf.writestr('backup_metadata.json', 
-                            import_json := __import__('json').dumps(metadata, indent=2))
+                zipf.writestr('backup_metadata.json', __import__('json').dumps(metadata, indent=2))
                 
                 # Add all files
                 file_count = 0

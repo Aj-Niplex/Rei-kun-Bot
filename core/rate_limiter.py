@@ -7,7 +7,6 @@ Tracks email sends and enforces cooldowns to prevent:
 
 import time
 from collections import deque
-from datetime import datetime, timedelta
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # RATE LIMIT CONFIG

@@ -1,9 +1,8 @@
-from discord.ext import commands
 from pathlib import Path
 from utils.config_loader import BOT_ADMIN_USERS
 from utils.bot_emojis import E
 
-PROMPT_FILE = Path("ai/system prompt.txt")
+PROMPT_FILE = Path("ai/system_prompt.txt")
 
 def is_admin(user):
     return str(user.name).lower() in {x.lower() for x in BOT_ADMIN_USERS}
@@ -14,7 +13,8 @@ async def setup(bot):
 
     @bot.command()
     async def setprompt(ctx, *, text=None):
-        if not is_admin(ctx.author): return
+        if not is_admin(ctx.author):
+            return
         if ctx.guild is not None:
             return await ctx.reply(f"{E('error')} DM only.", mention_author=False)
         if not text:

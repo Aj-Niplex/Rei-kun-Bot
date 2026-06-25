@@ -2,7 +2,7 @@
 import asyncio
 import random
 import string
-from typing import Dict, Any, List, Optional
+from typing import Any
 
 import discord
 from discord.ext import commands

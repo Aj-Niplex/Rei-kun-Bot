@@ -45,7 +45,7 @@ def main():
     # Add all files
     print("📝 Adding files...")
     out, err, code = run_command('git add .', check=False)
-    print(f"   Added all files (respecting .gitignore)")
+    print("   Added all files (respecting .gitignore)")
     
     # Commit
     print("💾 Creating commit...")
@@ -61,17 +61,17 @@ def main():
     out, err, code = run_command('git push -u origin main --force', check=False)
     
     if code == 0:
-        print(f"\n✅ SUCCESS! Code uploaded to:")
+        print("\n✅ SUCCESS! Code uploaded to:")
         print(f"   https://github.com/{username}/{repo}")
     else:
         # Try master branch
         print("   Trying master branch...")
         out2, err2, code2 = run_command('git push -u origin master --force', check=False)
         if code2 == 0:
-            print(f"\n✅ SUCCESS! Code uploaded to:")
+            print("\n✅ SUCCESS! Code uploaded to:")
             print(f"   https://github.com/{username}/{repo}")
         else:
-            print(f"\n❌ Push failed:")
+            print("\n❌ Push failed:")
             print(f"   {err if err else out}")
             print(f"   {err2 if err2 else out2}")
             sys.exit(1)

@@ -264,9 +264,8 @@ async def setup(bot: commands.Bot) -> None:
                 return m.author == ctx.author and m.channel == ctx.channel and m.content.lower() == "yes"
             
             try:
-                import asyncio
                 await bot.wait_for("message", check=check, timeout=30.0)
-            except:
+            except TimeoutError:
                 return await confirm.edit(content=f"{E('error')} Clear cancelled (timeout).")
             
             loading = await ctx.send(f"{E('loading')} Clearing all logs...")

@@ -4,7 +4,6 @@ Tracks which users agreed, and blocks repeat violators.
 """
 import json
 from pathlib import Path
-from utils.storage import block_user
 
 TOS_FILE = Path("data/tos.json")
 MAX_ATTEMPTS = 3

@@ -2,7 +2,7 @@
 import discord
 from discord.ext import commands
 from utils.config_loader import BOT_ADMIN_USER_IDS, BOT_ADMIN_USERS, BOT_OWNER_USER_IDS
-from utils.vps_logger import log_action, log_error, log_success
+from utils.vps_logger import log_error, log_success
 from utils.bot_emojis import E
 from utils import embeds as emb
 

@@ -1,12 +1,10 @@
 """
 AI Error Monitor - Monitors logs and detects issues in real-time
 """
-import os
 import json
 import asyncio
-from datetime import datetime, timezone, timedelta
-from pathlib import Path
-from typing import List, Dict, Any, Optional
+from datetime import datetime, timezone
+from typing import Dict, Any
 import discord
 from utils.email_sender import send_error_email
 
@@ -117,7 +115,7 @@ class AIMonitor:
                     try:
                         event = json.loads(line.strip())
                         recent_events.append(event)
-                    except:
+                    except json.JSONDecodeError:
                         continue
             
             # Look for errors

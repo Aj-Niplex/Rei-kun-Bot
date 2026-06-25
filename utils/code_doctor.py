@@ -13,7 +13,6 @@ from typing import Optional
 
 from discord.ext import commands
 
-from .config_loader import BOT_ADMIN_USERS, BOT_ADMIN_USER_IDS
 
 
 BACKUP_DIR = Path(".rei_backups")

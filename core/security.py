@@ -33,7 +33,7 @@ def save_master_key(key: bytes):
 def load_master_key() -> bytes:
     """Load master key from file, or generate if missing."""
     if not KEY_FILE.exists():
-        print(f"⚠️  Master key not found. Generating new one...")
+        print("⚠️  Master key not found. Generating new one...")
         key = generate_master_key()
         save_master_key(key)
         return key
@@ -139,9 +139,9 @@ if __name__ == "__main__":
         
         plaintext = sys.argv[2]
         encrypted = encrypt_value(plaintext)
-        print(f"\n✅ Encrypted value (copy to .env):")
+        print("\n✅ Encrypted value (copy to .env):")
         print(f"   {encrypted}")
-        print(f"\n📋 Full .env line example:")
+        print("\n📋 Full .env line example:")
         print(f"   SMTP_PASSWORD={encrypted}")
     
     elif command == "decrypt":
@@ -152,7 +152,7 @@ if __name__ == "__main__":
         encrypted = sys.argv[2]
         try:
             plaintext = decrypt_value(encrypted)
-            print(f"\n✅ Decrypted plaintext:")
+            print("\n✅ Decrypted plaintext:")
             print(f"   {plaintext}")
         except Exception as e:
             print(f"\n❌ Decryption failed: {e}")

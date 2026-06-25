@@ -1,4 +1,3 @@
-from discord.ext import commands
 import discord
 from utils.bot_emojis import E
 
@@ -17,11 +16,11 @@ async def setup(bot):
         embed.add_field(
             name=f"{E('star')} Best Examples",
             value=(
-                f"`!ai translate this to Hindi`\n"
-                f"`!ai explain this in simple English`\n"
-                f"`!ai what changed after v7.0.0?`\n"
-                f"`!ai tell me the meaning of this message`\n"
-                f"`?ai how do I use the logs command?`"
+                "`!ai translate this to Hindi`\n"
+                "`!ai explain this in simple English`\n"
+                "`!ai what changed after v7.0.0?`\n"
+                "`!ai tell me the meaning of this message`\n"
+                "`?ai how do I use the logs command?`"
             ),
             inline=False,
         )

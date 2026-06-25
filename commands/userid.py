@@ -1,4 +1,3 @@
-from discord.ext import commands
 from utils.bot_emojis import E
 
 async def setup(bot):
