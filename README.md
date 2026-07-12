@@ -294,6 +294,20 @@ Contributions are welcome! Please:
 
 ---
 
+
+---
+
+## 🌸 Emoji Installation Guide
+
+The bot uses a set of custom emojis to maintain Rei-kun's personality. To set them up:
+
+1. **Download the Emoji Packs**: Get the `store-emojigg-pack.zip` and `purple-emojigg-pack.zip` from the project assets.
+2. **Unzip the Files**: Extract all images to a local folder.
+3. **Upload to Discord**: Upload these images to your Discord server as custom emojis.
+4. **Match Names**: Ensure the emoji names in Discord match the `key` values in `knowledge/emoji_catalog.json` (e.g., upload `purpleribbon.gif` as "purpleribbon").
+
+Once uploaded, the bot will automatically use these emojis in its responses! 👑
+
 ## 📜 License
 
 This project is licensed under the **MIT License** - see [LICENSE](LICENSE) for details.
