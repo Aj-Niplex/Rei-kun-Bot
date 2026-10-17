@@ -207,10 +207,7 @@ The result is a clean, maintainable architecture that supports AI chat, resource
 
 ### /ai/knowledge/
 - `bot_help.txt` - Help information for AI reference.
-- `command_catalog.json` - Command metadata.
 - `emoji_catalog.json` - Detailed emoji catalog with IDs, names, categories.
-- `emoji_catalog.txt` - Human-readable emoji reference.
-- `version_log_v1.txt` - Version history and changelog for AI reference.
 
 ---
 
