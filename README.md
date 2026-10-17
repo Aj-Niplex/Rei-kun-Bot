@@ -200,8 +200,7 @@ rei-kun-bot/
 │   ├── system prompt.txt   # Bot personality
 │   └── knowledge/
 │       ├── emoji_catalog.json
-│       ├── bot_help.txt
-│       └── version_log_v1.txt
+│       └── bot_help.txt
 │
 ├── data/                   # Persistent storage (Git-ignored)
 │   ├── server_memories.json
